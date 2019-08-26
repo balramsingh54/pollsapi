@@ -21,3 +21,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^', include('polls.urls')),
 ]
+
