@@ -10,6 +10,7 @@ def polls_list(request):
 
 	return JsonResponse(data)
 
+
 def polls_detail(request):
 	poll = get_object_or_404(Poll, pk=pk)
 	data=data = {"results": { 
